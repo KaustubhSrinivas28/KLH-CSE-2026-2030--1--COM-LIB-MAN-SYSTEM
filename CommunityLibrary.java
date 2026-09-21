@@ -7,8 +7,8 @@ public class CommunityLibrary {
 
     //  MODULE 1: CONSTANTS
     static final int MAX_BOOKS = 50;   // the library can store at most 50 books
-    static final int AVAILABLE = 0;    // column number used in the 2D statistics table
-    static final int ISSUED = 1;       // column number used in the 2D statistics table
+    static final int AVAILABLE = 0;    
+    static final int ISSUED = 1;       
 
     //  MODULE 3: 1D ARRAYS (one array for each piece of book information) 
     static int[] bookIds = new int[MAX_BOOKS];
@@ -300,7 +300,7 @@ public class CommunityLibrary {
         }
     }
 
-    // ===== MODULE 3: COUNTING TECHNIQUE =====
+    //  MODULE 3: COUNTING TECHNIQUE 
   
     static int countIssued() {
         int total = 0;
